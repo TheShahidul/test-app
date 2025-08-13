@@ -1,0 +1,25 @@
+.topbar {
+  background-color: #6aa8fe;
+  color: #333;
+  padding: 10px 20px;
+  text-align: center;
+  
+}
+
+.slogan {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .slogan {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .slogan {
+    font-size: 0.9em;
+  }
+}
