@@ -31,8 +31,10 @@ const Navbar = () => {
           <li className="relative group">
             <button className="hover:underline">কর্ণার</button>
             <ul className="absolute left-0 mt-2 hidden group-hover:block bg-white text-black rounded shadow-md min-w-[150px] z-40">
-              <li><a href="#" className="block px-4 py-2 hover:bg-gray-100">উপ-কর্ণার 1</a></li>
-              <li><a href="#" className="block px-4 py-2 hover:bg-gray-100">উপ-কর্ণার 2</a></li>
+              <li><a href="#" className="block px-4 py-2 hover:bg-gray-100">শিক্ষক (সাধারন) </a></li>
+              <li><a href="#" className="block px-4 py-2 hover:bg-gray-100">শিক্ষক (কারিগরি)</a></li>
+              <li><a href="#" className="block px-4 py-2 hover:bg-gray-100">কর্মচারী</a></li>
+
             </ul>
           </li>
 

@@ -4,22 +4,26 @@ import Navbar from './components/Navbar';
 import NewsTicker from './components/NewsTicker';
 import Corner from './components/Corner';
 import Body from './components/Body/Body'; // <-- Import Body component
-import Instituteinfo from './components/Body/Institueinfo';
+import './App.css';
 
 function App() {
   return (
-    <div className="">
-      <div className="flex justify-center py-4 text-[#005181]">
+    <div className="App">
+      <div className="text-[#005181]">
         <p>পড় তোমার রবের নামে, যিনি সৃষ্টি করেছেন।</p>
       </div>
-      <Topbar />
-      <Banner />
-      <Navbar />
-      <NewsTicker />
-      <Corner />
+      <div className="upper-section">
+        <Topbar />
+        <Banner />
+        <Navbar />
+        <NewsTicker />
+        <Corner />
+      </div>
       
       {/* Insert your Body layout here */}
-      <Body />
+      <div className="body-section">
+        <Body />
+      </div>
 
       
 

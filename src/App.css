@@ -2,9 +2,8 @@
   text-align: center;
 }
 
-.pre-header {
-  background-color: #f0f0f0;
-  padding: 10px;
-  font-size: 0.9em;
-  color: #333;
+.body-section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
 }
