@@ -3,7 +3,7 @@ import { FaBell } from 'react-icons/fa';
 const NoticeBoard = () => {
   return (
     <div className="bg-white rounded-lg shadow-md border border-gray-200">
-      <div className="bg-[#005181] text-white p-3 rounded-t-lg flex items-center">
+      <div className="bg-[#005181] text-white p-3 rounded-t-lg flex items-center justify-center">
         <FaBell className="mr-2 text-lg" />
         <h3 className="text-xl font-semibold">নোটিশ বোর্ড</h3>
       </div>

@@ -8,7 +8,7 @@ const Navbar = () => {
   const toggleSubmenu = () => setIsSubmenuOpen(!isSubmenuOpen);
 
   return (
-    <nav className="w-full bg-[#005181] text-white relative z-50">
+    <nav className="w-full hover:text-black bg-[#005181] text-white relative z-50">
       <div className="flex items-center justify-between px-5 md:px-20 py-4">
         {/* <div className="text-xl font-bold">Site Name</div> */}
 
@@ -28,8 +28,8 @@ const Navbar = () => {
           <li><a href="#" className="hover:underline">ভর্তি</a></li>
 
           {/* Dropdown - Desktop */}
-          <li className="relative group">
-            <button className="hover:underline">কর্ণার</button>
+          <li className="relative group min-w-xs">
+            <button className="hover:underline ">কর্ণার</button>
             <ul className="absolute left-0 mt-2 hidden group-hover:block bg-white text-black rounded shadow-md min-w-[150px] z-40">
               <li><a href="#" className="block px-4 py-2 hover:bg-gray-100">শিক্ষক (সাধারন) </a></li>
               <li><a href="#" className="block px-4 py-2 hover:bg-gray-100">শিক্ষক (কারিগরি)</a></li>
@@ -62,7 +62,7 @@ const Navbar = () => {
         <div>
           <button
             onClick={toggleSubmenu}
-            className="w-full text-left px-5 py-3 hover:bg-blue-100 flex justify-between items-center"
+            className="w-full text-left px-5 py-3 hover:bg-blue-100 flex justify-center gap-2 items-center"
           >
             কর্ণার
             <span className="ml-2">{isSubmenuOpen ? '▲' : '▼'}</span>
