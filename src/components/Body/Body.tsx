@@ -6,6 +6,9 @@ import PresidentInfo from "./President";
 import InstituteInfo from "./Institueinfo";
 import StudentCorner from "./Student-corner";
 import NoticeBoard from "./NoticeBoard";
+import News from "./News";
+import RecentPost from "./Recentpost";
+
 
 const Body: React.FC = () => {
   return (
@@ -15,6 +18,8 @@ const Body: React.FC = () => {
         <SliderBox />
         <InstituteInfo />
         <StudentCorner />
+        <RecentPost />
+        
       </div>
 
       {/* Sidebar */}
@@ -22,6 +27,7 @@ const Body: React.FC = () => {
         <PresidentInfo />
         <Headmaster />
         <NoticeBoard />
+        <News/>
       </div>
     </div>
   );

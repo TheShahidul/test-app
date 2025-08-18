@@ -3,7 +3,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const Topbar = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center w-full px-4 md:px-20 py-3 bg-[#005181] text-white text-sm md:text-base">
+    <div className="flex flex-col md:flex-row justify-between items-center w-full px-4 md:px-20 py-3 bg-[#005181] text-white text-sm md:text-base rounded-t-xl">
 
       
       
@@ -14,15 +14,15 @@ const Topbar = () => {
       </div>
 
       {/* Contact Info */}
-      <div className="flex flex-col sm:flex-row gap-2 sm:gap-10 items-center">
+      <div className="flex flex-col sm:flex-row gap-2 sm:gap-10 items-center ">
         {/* Phone */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 hover:text-[#ffc107] transition-colors">
           <FaPhoneAlt className="text-sm md:text-base" />
           <p>০১৭১৮৯০৫৮২৫</p>
         </div>
 
         {/* Email */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 hover:text-[#ffc107] transition-colors">
           <MdEmail className="text-lg md:text-xl" />
           <p>hgh.school1983@gmail.com</p>
         </div>
