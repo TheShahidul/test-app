@@ -8,7 +8,7 @@ const Footer = () => {
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
   return (
-    <footer className="bg-[#00426b] rounded-t-xl text-white pt-12 font-sans">
+    <footer className="bg-[#00426b] rounded-t-xl text-white pt-12" style={{ fontFamily: 'Tiro Bangla, serif' }}>
       <div className="max-w-7xl mx-auto px-6 pb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* About Us Column */}
         <div className="flex flex-col border-1 border-solid outline-2 outline-cyan-500 rounded-3xl bg-[#125c88] px-8 py-5">
